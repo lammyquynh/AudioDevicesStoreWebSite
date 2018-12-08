@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="file:///C|/xampp/htdocs/Thietkeweb/Buoi4/dinhdang_form.css">
+<title>Đăng ký thành viên</title>
+</head>
+
+<body>
+<form action="aa.html" method="post" name="dangnhap">
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#FF99FF">
+    <caption><h2>ĐĂNG KÝ THÔNG TIN DU LỊCH</h2></caption>	
+      <tr>
+        <td width="93">Họ và tên</td>
+        <td width="401"><input type="text" name="name" placeholder="Phan Thị Ngọc Mai" size="50"  /></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text" name="diachi" placeholder="140, Lê Trọng Tấn, Tây thạnh, Tân phú, Tp.HCM"  size="50"/></td>
+      </tr>
+      <tr>
+        <td>Điện thoại</td>
+        <td><input type="text" name="name" placeholder="0918453318"size="15"  /></td>
+      </tr>
+      <tr>
+        <td>Mail</td>
+        <td><input type="text" name="email" placeholder="maiptn@gmail.com" size="30"/></td>
+      </tr>
+      <tr>
+        <td>Quốc tịch</td>
+        <td>
+            <input type="radio" name=”QT” value="VN">Việt nam
+            <input type="radio" name=”QT” value="ML">Malaysia
+            <input type="radio" name=”QT” value="CN">China
+            <input type="radio" name=”QT” value="CB">Cambodia
+            <input type="radio" name=”QT” value="ML">Malaysia
+            <input type="radio" name=”QT” value="SG">Singapore
+            <input type="radio" name=”QT” value="TH">Thailand
+        </td>
+      </tr>
+      <tr>
+        <td>Chọn tour</td>
+        <td>
+            <select>
+                <optgroup label="Miền bắc">
+                    <option value="HHS">Hà nội - Hạ long - Sapa</option>
+                    <option value="HCN">Hà nội - Chùa hương - Ninh bình</option>
+                    <option value="HCT">Hà nội - Chùa bái đính - Tuần châu</option>
+                </optgroup>
+                <optgroup label="Miền trung">
+                    <option value="HBD">Huế - Bạch mã - Đà nẵng</option>
+                    <option value="DNH">Đà nẵng - Huế</option>
+                </optgroup>
+                <optgroup label="Miền nam">
+                    <option value="TCC">Tp.HCM - Cần thơ - Cà mau</option>
+                    <option value="TMC">Tp.HCM - Mỹ tho - Cà mau</option>
+                </optgroup>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Phương tiện</td>
+        <td>
+            <input type="radio" name="pt" value="mb" checked>Máy bay
+            <input type="radio" name="pt" value="xe">Xe ô tô
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="left">
+            <form>
+                 <fieldset >
+                      <legend align="left">Số lượng đoàn khách</legend>
+                      Người lớn<input type="text" size="15">Trẻ em<input type="text" size="15">
+                 </fieldset>
+            </form>
+        </td>
+      </tr>
+      <tr>
+            <td colspan="2" align="center" >
+            	Ghi chú cá nhân<input <textarea style="height:100px;width:400px" name="ghichu" placeholder="Có 2 trẻ em dưới 6 tuổi"></textarea>
+            </th>
+      </tr>
+      <tr>
+            <td colspan="2" align="center">
+                <input type="reset" name="btreset" value="Nhập lại" />
+                <button onclick="myFunction()">Đăng Ký</button></td>
+            <td >
+       </tr>
+       <tr>
+            <td colspan="2" align="center">
+                <p id="demo">Bạn hãy nhập đầy đủ thông tin bên trên</p>
+            </td>
+      </tr>
+       
+</table>
+<script>
+	function myFunction() {
+		document.getElementById("demo").innerHTML = "Bạn đã đăng ký thành công!";
+	}
+</script> 	
+</body>
+</html>

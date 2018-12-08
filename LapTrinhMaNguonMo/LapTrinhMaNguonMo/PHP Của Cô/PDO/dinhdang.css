@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+table,th,td{
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+th,td{
+    padding:7px 15px;
+}
+th{
+    background-color: #008040;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #F0F0F0;
+}
+tr:hover{
+    background-color: #ddd;
+}
+caption{
+	color:#F00;
+	font-size:36px;
+}
+h2{
+	color:#30F;
+}
